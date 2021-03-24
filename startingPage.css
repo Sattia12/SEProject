@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    background-color: rgb(252, 212, 218);
+  }
+
+  h1{
+    float:right;
+  }
+ 
+  h2{
+    margin-top: 15px;
+  }
+  
+  /* Style the header */
+  .header {
+ 
+    padding: 20px;
+    text-align: center;
+    background-color:rgb(236, 130, 130);
+  display:block;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(236, 130, 130) ;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Create three unequal columns that floats next to each other */
+  .column {
+    float: left;
+    padding: 10px;
+  }
+  
+  /* Left and right column */
+  .column.left {
+    width: 25%;
+    position: absolute;
+  }
+  .column.right {
+    width: 25%;
+    
+  }
+  
+  /* Middle column */
+  .column.middle {
+    width: 50%;
+    position: absolute;
+    right:350px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .Assessor{
+    position: absolute;
+    top: 295px;
+    right: 20px;
+    padding: 10px;
+    padding-right:20px;
+    padding-left: 20px;
+    border: solid 1pt rgb(233, 232, 232);
+    margin-bottom: 15px;
+    background-color: rgb(233, 232, 232);
+  }
+
+    .Student{
+        position: absolute;
+        top: 95px;
+        right: 20px;
+        padding: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+        border: solid 1pt rgb(233, 232, 232);
+        margin-bottom: 15px;
+        background-color: rgb(233, 232, 232);
+    }
+
+
+.Links2{
+  border: solid 1pt rgb(233, 232, 232);
+  background-color: rgb(233, 232, 232);
+  margin-bottom: 15px;
+}
+
+  .titles{
+    border: solid 1pt rgb(236, 130, 130) ;
+    background-color: rgb(236, 130, 130);
+}
+
+.titles1{
+    border: solid 1pt rgb(236, 130, 130) ;
+    background-color: rgb(236, 130, 130);
+    padding-right:110px;
+   
+}
+
+.Hobbies{
+  border: solid 1pt rgb(233, 232, 232);
+    margin-bottom: 15px;
+    background-color: rgb(233, 232, 232);
+}
+
+/* .Student{
+    position: absolute;
+    top: 95px;
+    right: 20px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: solid 1pt rgb(233, 232, 232);
+    margin-bottom: 15px;
+    background-color: rgb(233, 232, 232);
+} */
+
+
+
+.ViewBlog {
+  border: solid 1pt rgb(233, 232, 232);
+  background-color: rgb(233, 232, 232);
+}
+
+.Administrator{
+    position: absolute;
+    top: 490px;
+    right: 20px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: solid 1pt rgb(233, 232, 232);
+    margin-bottom: 15px;
+    background-color: rgb(233, 232, 232);
+}
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }

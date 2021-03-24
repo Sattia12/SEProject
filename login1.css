@@ -1,0 +1,30 @@
+.form{
+
+
+  background-color: rgb(233, 232, 232);
+  display: block;
+  margin: auto;
+  width: 25%;
+  
+
+  border: 1px solid red;
+  padding-top: 20px;
+  
+  padding-left: 170px;
+  padding-bottom: 30px;
+  background-image: url("background.png");
+}
+
+html{
+    background-color: rgb(252, 212, 218);
+    
+}
+
+.header{
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    background-color:rgb(236, 130, 130);
+    display:block;
+    margin-bottom: 20px;
+}
