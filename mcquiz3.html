@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>mcquiz</title>
+</head>
+<body>
+  <h2> Take an exam </h2>
+  <div id="results"></div>
+  <a href="file:///Users/victoriapiotti/Desktop/sefolder/mcquiz2.html"> Back to form </a>
+  <p>Click the "Start" button to start the exam.</p>
+  <button onclick="myFunction()">Start</button>
+  <p id="demo"></p>
+  <script>
+      const resultsList  = document.getElementById('results')
+      new URLSearchParams(window.location.search).forEach((value, name) => {
+        resultsList.append(`${name}: ${value}`)
+        resultsList.append(document.createElement('br'))
+      })
+      function myFunction() {
+      var x = new URLSearchParams.get("question1")
+      document.getElementById("demo").innerHTML = "Found " + x + " elements in the form.";
+      console.log(x)
+      }
+  </script>
+</body>
+</html>
