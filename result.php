@@ -20,8 +20,8 @@
         }
             $score = $score	/ 4 *100;
         
-        echo'Thanks for completing the exam ';
-        echo'Your score is '.$score.'%';
+        echo "Thanks for completing the exam <br> ";
+        echo "Your score is ".$score."%";
 ?>
 </body>
 
