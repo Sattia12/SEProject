@@ -1,15 +1,8 @@
 <html>
 <head>
 <title>Exam Page</title>
-<script LANGUAGE="JavaScript" type="text/javascript">
-function display() {
-  DispWin = window.open('','NewWin', 'toolbar=no,status=no,width=300,height=200')
-  message = "<ul><li><b>NAME: </b>" + document.form1.yourname.value;
-  message += "<li><b>Subject: </b>" + document.form1.course.value;
-  message += "<li><b>Date of Exam : </b>" + document.form1.date.value + "</ul>";
-  DispWin.document.write(message);
-  document.write("welcome to exam......")
-  }
+<link rel="stylesheet" href="login1.css" type="text/css">
+
 </script>
 </head>
 <body>
@@ -23,7 +16,7 @@ the data you entered will be displayed in a pop-up window.
 </p>
 <p><b>Date: </b> <input TYPE="TEXT" SIZE="15" NAME="date">
 </p>
-<p><input TYPE="BUTTON" VALUE="Start Exam" onClick="display();"></p>
+<p><a href="exam.html">take the exam</a></p>
 </form>
 </body>
 </html>
